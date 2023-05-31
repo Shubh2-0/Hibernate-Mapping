@@ -1,7 +1,6 @@
 # Hibernate Mapping Projects
 
-![Hibernate Logo](![image](https://github.com/Shubh2-0/Hibernate-Mapping/assets/112773220/9c21bf7f-390d-4923-b82e-2983eaaeb708)
-)
+![Hibernate Logo](https://github.com/Shubh2-0/Hibernate-Mapping/assets/112773220/9c21bf7f-390d-4923-b82e-2983eaaeb708)
 
 This GitHub repository contains several projects demonstrating Hibernate mapping techniques. Each project focuses on a specific mapping type and provides a clear example of its implementation. The following projects are included:
 
