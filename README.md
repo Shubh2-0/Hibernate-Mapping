@@ -14,7 +14,7 @@ The `Embeddable` project showcases the usage of the `@Embeddable` annotation in 
 
 The `Many_To_Many_Bidirectional` project illustrates the bidirectional many-to-many mapping in Hibernate. It presents a scenario where multiple instances of one entity can be associated with multiple instances of another entity. This type of mapping is often used when you have a relationship where entities from both sides can have multiple related entities.
 
-
+ 
 
 
 ## One-To-Many Bidirectional 🔄👥
