@@ -5,7 +5,7 @@
 This GitHub repository contains several projects demonstrating Hibernate mapping techniques. Each project focuses on a specific mapping type and provides a clear example of its implementation. The following projects are included:
 
 ## Embeddable 💼
-
+ 
 The `Embeddable` project showcases the usage of the `@Embeddable` annotation in Hibernate. It demonstrates how to embed a class within an entity, allowing for a more structured and reusable data model. This is particularly useful when you have a set of properties that are commonly used in multiple entities.
 
 ![image](https://github.com/Shubh2-0/Hibernate-Mapping/assets/112773220/0f325f7c-3fdf-48be-8669-0c24f36abb5f)
