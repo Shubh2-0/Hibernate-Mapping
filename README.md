@@ -1,65 +1,48 @@
-# Hibernate Mapping Projects
+<div align="center">
 
-![Hibernate Logo](https://github.com/Shubh2-0/Hibernate-Mapping/assets/112773220/9c21bf7f-390d-4923-b82e-2983eaaeb708)
- 
-This GitHub repository contains several projects demonstrating Hibernate mapping techniques. Each project focuses on a specific mapping type and provides a clear example of its implementation. The following projects are included:
+# 🗺️ Hibernate Mapping
 
-## Embeddable 💼
- 
-The `Embeddable` project showcases the usage of the `@Embeddable` annotation in Hibernate. It demonstrates how to embed a class within an entity, allowing for a more structured and reusable data model. This is particularly useful when you have a set of properties that are commonly used in multiple entities.
+[![GitHub stars](https://img.shields.io/github/stars/Shubh2-0/Hibernate-Mapping?style=for-the-badge&logo=github&color=yellow)](https://github.com/Shubh2-0/Hibernate-Mapping/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Shubh2-0/Hibernate-Mapping?style=for-the-badge&logo=github&color=blue)](https://github.com/Shubh2-0/Hibernate-Mapping/network/members)
 
-![image](https://github.com/Shubh2-0/Hibernate-Mapping/assets/112773220/0f325f7c-3fdf-48be-8669-0c24f36abb5f)
+### Master ORM Mapping Techniques
 
-## Many-To-Many Bidirectional 🔄🔄
+*One-to-One, One-to-Many, Many-to-Many mappings*
 
-The `Many_To_Many_Bidirectional` project illustrates the bidirectional many-to-many mapping in Hibernate. It presents a scenario where multiple instances of one entity can be associated with multiple instances of another entity. This type of mapping is often used when you have a relationship where entities from both sides can have multiple related entities.
+</div>
 
- 
+---
 
+## 🎯 About
 
-## One-To-Many Bidirectional 🔄👥
+Comprehensive examples of **Hibernate mapping techniques**. Learn how to map complex entity relationships in JPA/Hibernate.
 
-The `One_To_Many_Bidirectional` project exemplifies the bidirectional one-to-many mapping in Hibernate. It demonstrates a scenario where a single entity is associated with multiple instances of another entity, and the association can be navigated from both ends. This type of mapping is useful when you have a hierarchical relationship between entities.
+## 📚 Mapping Types
 
+| Type | Annotation | Example |
+|------|------------|---------|
+| One-to-One | @OneToOne | User ↔ Profile |
+| One-to-Many | @OneToMany | Department → Employees |
+| Many-to-One | @ManyToOne | Employees → Department |
+| Many-to-Many | @ManyToMany | Students ↔ Courses |
 
+## 💡 Key Concepts
 
-## One-To-Many Unidirectional ➡️👥
+- ✅ Unidirectional vs Bidirectional
+- ✅ Cascade operations
+- ✅ Fetch types (LAZY/EAGER)
+- ✅ Join columns & tables
+- ✅ Mapped by attribute
 
-The `One_To_Many_Unidirectional` project demonstrates the unidirectional one-to-many mapping in Hibernate. It showcases a scenario where a single entity is associated with multiple instances of another entity, but the association can only be navigated from one end. This type of mapping is useful when you don't need to navigate the relationship from the "many" side.
+## 🛠️ Technologies
 
-
-
-## One-To-One Bidirectional 🔄🤝
-
-The `One_To_One_Bidirectional` project presents the bidirectional one-to-one mapping in Hibernate. It illustrates a scenario where two entities have a one-to-one relationship, and the association can be navigated from both sides. This type of mapping is useful when you have a strict one-to-one relationship between entities.
-
-
-
-## One-To-One Unidirectional ➡️🤝
-
-The `One_To_One_Unidirectional` project showcases the unidirectional one-to-one mapping in Hibernate. It provides an example where two entities have a one-to-one relationship, but the association can only be navigated from one side. This type of mapping is useful when you don't need to navigate the relationship from the "one" side.
-
-
-
-**Feel free to explore each project individually to understand the different Hibernate mapping techniques and how they can be applied in your own projects.**
-
+Hibernate | JPA | MySQL | Maven
 
 ## 📬 Contact
 
-If you want to contact me, you can reach me through below handles.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-bhati-787319213/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhambhati226@gmail.com)
 
- <p align="left">
-  <a href="https://www.linkedin.com/in/shubham-bhati-787319213/" target="_blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" width="40px" alt="linkedin" /></a>&emsp;
-  <a title="shubhambhati226@gmail.com" href="mailto:shubhambhati226@gmail.com" target="_blank"><img align="center"  src="https://cdn-icons-png.flaticon.com/128/888/888853.png"  width="40px"   alt="mail-me" /></a>&emsp;
-  <a href="https://wa.me/+916232133187" target="blank"><img align="center" src="https://media2.giphy.com/media/Q8I2fYA773h5wmQQcR/giphy.gif" width="40px"  alt="whatsapp-me" /></a>&emsp;	
- </p>
+---
 
-<br>
-
-<div align="center">
-  <strong>💓Happy coding!💻</strong>
-</div>
-
-
-
-
+**Keywords:** Hibernate ORM Mapping OneToOne OneToMany ManyToMany JPA Entity-Relationships
